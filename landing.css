@@ -110,4 +110,8 @@ li {
   border: none;
 }
 
+.sign-hover:hover {
+  cursor: pointer;
+}
+
 
