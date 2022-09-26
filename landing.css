@@ -1,4 +1,4 @@
-@-ms-viewport{
+@-ms-viewport {
   width: device-width;
 }
 
@@ -17,7 +17,7 @@ nav a {
 }
 
 nav a:hover {
-  color:white;
+  color: white;
 }
 
 li {
@@ -97,23 +97,35 @@ li {
   color: white;
 }
 
-.footer-button {
-  transition: 0.3s;
+.get-started-icon,
+.get-started {
   background-color: #7fd127;
   color: white;
   border: none;
 }
 
-.footer-button a {
-  color: white;
-  text-decoration: none;
+.get-started-button {
+  background-color: #7fd127;
+  border: none;
+  border-radius: 10px;
+  transition-duration: 0.3s;
 }
 
-.chat-with-us {
-  transition: 0.3s;
+.get-started-button:hover {
+  font-weight: bold;
+}
+
+.chat-with-us-button {
   background-color: white;
   color: blue;
+  font-weight: bold;
   border: none;
+  border-radius: 10px;
+  transition-duration: 0.3s;
+}
+
+.chat-with-us-button:hover {
+  font-weight: 900;
 }
 
 .sign-hover:hover {
@@ -128,9 +140,6 @@ li {
   display: inline-flex;
   height: 40px;
   padding: 0;
-  background-color: blue;
-  color: white;
-  border: 1px solid white;
   outline: none;
   overflow: hidden;
   font-size: 16px;
@@ -142,12 +151,9 @@ li {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  /* padding: 0 35px; */
   padding-left: 65px;
-  /* padding-right: 65px; */
   height: 100%;
 }
-
 
 .button__icon {
   display: inline-flex;
@@ -159,9 +165,17 @@ li {
   margin-left: 25px;
 }
 
-.button:hover {
-  background-color: white;
-  border: 1px solid black;
-  color: black;
-  font-weight: bold;
+.big-title {
+  font-size: 350%;
+}
+
+.learn-more-button {
+  background-color: blue;
+  color: white;
+  border: 2px solid white;
+  transition-duration: 0.3s;
+}
+
+.learn-more-button:hover {
+  font-weight: bolder;
 }
