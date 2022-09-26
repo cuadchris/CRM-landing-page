@@ -1,0 +1,113 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+nav {
+  color: black;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  color:white;
+}
+
+li {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.basic {
+  height: 500px;
+  background-color: brown;
+}
+
+.explore {
+  text-align: center;
+}
+
+.explore-tabs {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.explore-col {
+  display: flex;
+  flex-direction: column;
+  height: 130px;
+  width: 115px;
+  border: 1px solid black;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 35px;
+}
+
+.hover-tab:hover {
+  cursor: pointer;
+}
+
+.credit-card {
+  display: flex;
+  height: 500px;
+  margin-top: 100px;
+}
+
+.credit-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.right-border {
+  border-top-right-radius: 14px;
+  border-bottom-right-radius: 14px;
+  background-color: blue;
+  color: white;
+}
+
+.extra-small {
+  font-size: small;
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 150px;
+  background-color: #e5efff;
+}
+
+.footers {
+  height: 300px;
+  margin-top: 35px;
+  background-color: blue;
+  color: white;
+}
+
+.footer-button {
+  transition: 0.3s;
+  background-color: #7fd127;
+  color: white;
+  border: none;
+}
+
+.footer-button a {
+  color: white;
+  text-decoration: none;
+}
+
+.chat-with-us {
+  transition: 0.3s;
+  background-color: white;
+  color: blue;
+  border: none;
+}
+
+
