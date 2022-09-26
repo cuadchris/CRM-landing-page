@@ -115,4 +115,48 @@ li {
   cursor: pointer;
 }
 
+.icon-right {
+  float: right;
+}
 
+.button {
+  display: inline-flex;
+  height: 40px;
+  padding: 0;
+  background-color: blue;
+  color: white;
+  border: 1px solid white;
+  outline: none;
+  overflow: hidden;
+  font-size: 16px;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+
+.button__text {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  /* padding: 0 35px; */
+  padding-left: 65px;
+  /* padding-right: 65px; */
+  height: 100%;
+}
+
+
+.button__icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 24px;
+  height: 100%;
+  margin-right: -15px;
+  margin-left: 25px;
+}
+
+.button:hover {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  font-weight: bold;
+}
